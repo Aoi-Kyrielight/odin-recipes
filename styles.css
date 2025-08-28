@@ -1,0 +1,94 @@
+/* General Styling */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, 'Times New Roman', sans-serif;
+}
+
+html{
+    background-color: lightcyan;
+}
+
+h1{
+    color: rgba(184, 135, 11, 0.89);
+}
+h2{
+    color: brown;
+}
+.page-title{
+    width: auto;
+    height: 40px;
+    border: 2px double black;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.link{
+    margin: 10px;
+    font-weight: bold;
+}
+
+.link:hover,
+.link:focus{
+    color: lightcoral;
+    background-color:aquamarine;
+    text-decoration: none;
+}
+
+.link:visited{
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+/* HOMEPAGE STYLING */
+.recipe-list{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.recipe-list ul{
+    list-style: none;
+}
+
+.recipe-list li{
+    padding: 10px;
+    font-weight:bold;
+}
+
+/* Recipe pages */
+.food-img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 10px solid darkorange;
+}
+
+.recipe{
+    margin: 10px;
+    padding: 10px
+}
+
+
+.intro p{
+    margin: 10px 0px;
+}
+
+.ingr-list{
+    list-style: circle;
+}
+.ingr-list li{
+    padding: 5px;
+}
+
+
+.steps-list li{
+    padding: 5px;
+}
